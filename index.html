@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="CSS/main.css">
+    <title>Contact Form</title>
+</head>
+<body>
+    <header>
+        
+    </header>
+    <main>
+
+        <form id="myForm">
+            <h1>CONTACT FORM</h1>
+            <div class="question">
+              <input id="firstName" type="text" required/>
+              <label>First Name</label>
+            </div>
+            <div class="question">
+              <input id="lastName" type="text" required/>
+              <label>Last Name</label>
+            </div>
+             <div class="question">
+              <input id="email" type="text" required/>
+              <label>Email</label>
+            </div>
+            <div class="question">
+                <input id="phoneNumber" type="number" required/>
+                <label>Phone Number</label>
+              </div>
+              <div class="question">
+                <input id="city" type="text" required/>
+                <label>City</label>
+              </div>
+            <div class="message">
+              <textarea id="mailMessage" type="text" required></textarea>
+              <label>Message</label>
+            </div>
+            <div class="form-submit">
+                <!--<a class="btn-submit" id="submit">SUBMIT</a>-->
+                <button class="btn-submit" id="addPerson">Add Person</button>
+                <button class="btn-submit" id="showData">Show Data</button>
+            </div>
+          </form>
+          <div id="personData"></div>
+    </main>
+
+    <footer>
+        <div class="footer">
+            Copyright &copy; <span id="getYear"></span>
+        </div>
+    </footer>
+    <!--JS-->
+    <script src="main.js"></script>
+</body>
+</html>

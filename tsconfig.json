@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+      "target": "esnext",          
+      "module": "commonjs",                     
+      "allowJs": true,
+      "outDir": "dist",                          
+      "noImplicitAny": false,              
+      "sourceMap": false,
+      "watch": true,
+      "lib": ["DOM", "ES2017"]
+    },
+  }
